@@ -424,13 +424,13 @@ color: #434455;
 }
 
 .footer-socials .footer-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--footer-text);
-    margin-bottom: 16px;
-}
+              font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: var(--footer-text);
+            margin-bottom: 16px;
+        }
 
 .social-list {
     display: flex;
@@ -461,4 +461,5 @@ color: #434455;
 .footer-socials .social-icon {
     width: 24px;
     height: 24px;
-         fill: #f4f4fd;  }
+    fill: var(--icon-fill);
+}
