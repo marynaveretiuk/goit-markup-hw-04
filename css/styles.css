@@ -271,10 +271,11 @@ width: 40px;
 }
 
 .social-icon {
-       width: 16px;
-        height: 16px;
-        fill:  #f4f4fd;}
-    
+    width: 16px;
+    height: 16px;
+    color: #f4f4fd;}
+
+
     .section-title {
 font-size: 36px;
 line-height: 1.11;
@@ -424,13 +425,13 @@ color: #434455;
 }
 
 .footer-socials .footer-title {
-              font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-         color:#FFFFFF;
-            margin-bottom: 16px;
-        }
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--footer-text);
+margin-bottom: 16px;
+}
 
 .social-list {
     display: flex;
@@ -461,5 +462,5 @@ color: #434455;
 .footer-socials .social-icon {
     width: 24px;
     height: 24px;
-    fill: var(--icon-fill);
+    color: var(--icon-fill);
 }
