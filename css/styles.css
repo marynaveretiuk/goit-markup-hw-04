@@ -442,7 +442,7 @@ color: #434455;
     height: 40px;
 }
 
-.social-link {
+.footer-socials .social-link {
     width: 100%;
     height: 100%;
     background-color: var(--primary-color);
@@ -458,7 +458,7 @@ color: #434455;
     background-color: #31d0aa;
 }
 
-.social-icon {
+.footer-socials .social-icon {
     width: 24px;
     height: 24px;
          fill: #f4f4fd;  }
